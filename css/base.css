@@ -1,0 +1,146 @@
+
+body {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.nav-left {
+    width: 10%;
+}
+
+.nav-right {
+    width: 10%;
+}
+
+.header-title {
+    /*font-size: 12px;*/
+}
+
+.preview {
+    padding-bottom: 15px;
+}
+
+.preview_desc {
+    color: #9d9d9d;
+}
+
+.navbar-inverse .navbar-brand {
+    font-family: 'Satisfy', cursive;
+    font-size: 30px;
+    font-weight: 700;
+    color: #FFF;
+}
+
+
+.preview a {
+    font: inherit;
+    color: inherit;
+    text-decoration: inherit;
+}
+
+.preview .price {
+    font-size: 16px;
+}
+
+.preview del.price,
+.detailed del.price
+{
+    font-size: inherit;
+    color: #9d9d9d;
+}
+
+.detailed .price {
+    font-size: 18px;
+}
+
+.detailed img {
+    cursor: pointer;
+}
+
+
+.discount {
+    position: absolute;
+    right: 20px;
+    top: 5px;
+    background: #f44050;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    color: #fff;
+    text-align: center;
+    border-radius: 50%;
+    display: inline-block;
+    z-index: 1;
+}
+
+.special-price {
+    color: #f44050;
+}
+
+.detailed.modal button.close {
+    position: absolute;
+    z-index: 1;
+    right: 10px;
+    top: 10px;
+    opacity: 0.5;
+    font-size: 20px;
+    text-shadow: none;
+    color: #FFFFFF;
+}
+
+.detailed.modal button.close:hover {
+    opacity: 0.9;
+}
+
+.detailed.modal div,
+.detailed.modal .carousel-inner > .item {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+.detailed.modal .carousel-inner > .item > img {
+    width: auto;
+    height: auto;
+    max-height: 100%;
+    max-width: 90%;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.detailed.modal .vertical-align-helper {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+}
+
+.detailed.modal .modal-dialog {
+    width: 85%;
+    height: 98%;
+    margin: auto;
+}
+
+.detailed.modal .carousel-control {
+    width: 5%;
+}
+
+.detailed.modal .carousel-control .glyphicon-chevron-left,
+.detailed.modal .carousel-control .glyphicon-chevron-right {
+    font-size: 20px;
+}
+
+.detailed.modal .modal-content {
+    background-color: #222222;
+}
+
+.detailed.modal .modal-body {
+    padding: 0;
+}
+
+
+
